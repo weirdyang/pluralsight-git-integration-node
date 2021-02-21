@@ -11,9 +11,9 @@
 ensure .travis.yml is formatted properly.
 debug why travis build is not running by going to the requests tab
 
-<img src="./docs/requests.png?raw=true" alt="Requests">
+![Request tab](https://raw.githubusercontent.com/weirdyang/pluralsight-git-integration-node/master/docs/requests.PNG)
 
-![Request erros](docs/requests-parse.png?raw=true)
+![Request erros](https://raw.githubusercontent.com/weirdyang/pluralsight-git-integration-node/master/docs/requests-parse.PNG)
 
 *****
 
