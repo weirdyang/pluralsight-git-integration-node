@@ -11,7 +11,7 @@
 ensure .travis.yml is formatted properly.
 debug why travis build is not running by going to the requests tab
 
-<img src="docs/requests.png?raw=true">
+<img src="./docs/requests.png?raw=true" alt="Requests">
 
 ![Request erros](docs/requests-parse.png?raw=true)
 
