@@ -1,0 +1,19 @@
+# this is ran before our code runs
+# we do installations here
+before_script:
+	- npm install; npm install -g gulp
+# we want to test using gulp
+# gulp to run test.js
+script: gulp test
+# define language
+language: node_js
+# defining process.env.PORT
+# used in main.js
+env:
+	- PORT=7777
+# define exact versions to run
+# 0.12 build should fail since proj using es6
+node_js:
+	- "5.1"
+	- "4"
+	- "0.12"
