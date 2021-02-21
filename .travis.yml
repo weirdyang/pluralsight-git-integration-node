@@ -15,5 +15,5 @@ env:
 # 0.12 build should fail since proj using es6
 node_js:
   - "5.1"
-  - "4"
-  - "0.12"
+#  - "4"
+#  - "0.12"
