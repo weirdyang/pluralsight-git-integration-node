@@ -1,7 +1,7 @@
 # this is ran before our code runs
 # we do installations here
 before_script:
-  - npm install; npm install -g gulp
+  - npm install; npm install -g gulp, npm install -g npx
 # we want to test using gulp
 # gulp to run test.js
 script: gulp test
