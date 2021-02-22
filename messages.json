@@ -10,4 +10,9 @@
 	"title": "JS Workshop Today",
 	"body": "Come improve your JavaScript skills",
 	"link": "http://jsconf.com"
+},
+{
+	"title": "Hello World",
+	"body": "Hello Mr Sng",
+	"link": "https://hello.world.org"
 }]
