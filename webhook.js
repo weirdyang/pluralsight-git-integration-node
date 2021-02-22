@@ -5,6 +5,6 @@ module.exports = function webHook(app) {
   app.post('/webhook', (req, res) => {
     console.log('webhook activated');
     console.log(req.body);
-    res.status.send();
+    res.status(200).send();
   });
 };
