@@ -31,7 +31,12 @@ TL:DR
 
     b. using a npm-shrinkwrap.json
 
-    c. after initial `npm install`, add `"preinstall": "npx npm-force-resolutions"` to package.json, and run `npm install` again. this is preferred, and will ensure your app works on heroku. more info [here](https://stackoverflow.com/a/58394828/9491881)
+    c. after initial `npm install`, add `"preinstall": "npx npm-force-resolutions"` to package.json, and run `npm install` again. this is preferred, and will ensure your app works on heroku. more info [here](https://stackoverflow.com/a/58394828/9491881). Remember to add the following to the top of your .travis.yml.
+    ```
+    before_install:
+      npm install -g npx`
+    ```
+
 3. For options 2a. You should see this messag:
     ```
     npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@0. I'll try to do my best with it!
