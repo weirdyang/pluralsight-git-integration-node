@@ -31,7 +31,17 @@ TL:DR
 
     b. using a npm-shrinkwrap.json
 
-    c. after initial `npm install`, add `"preinstall": "npx npm-force-resolutions"` to package.json, and run `npm install` again. this is preferred, and will ensure your app works on heroku. more info [here](https://stackoverflow.com/a/58394828/9491881). Remember to add the following to the top of your .travis.yml.
+    c. after initial `npm install`. first add the following to package.json.
+    
+    ```
+    {
+    //Your current package.json contents
+      "resolutions": {
+        "graceful-fs": "^4.2.4"
+        }
+    }
+    ```
+    then under scripts, add `"preinstall": "npx npm-force-resolutions"` to package.json Run `npm install` again. this is preferred, and will ensure your app works on heroku. more info [here](https://stackoverflow.com/a/58394828/9491881). Remember to add the following to the top of your .travis.yml.
     ```
     before_install:
       npm install -g npx`
@@ -51,3 +61,9 @@ TL:DR
     npm WARN ancient lockfile
     ```
     it might be a corrupted npm profile folder.
+
+## git push origin test-branch
+
+if you get this `error: src refspec test-branch does not match any`,
+
+run `git push --set-upstream origin test-branch`.
