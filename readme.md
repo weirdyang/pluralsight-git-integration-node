@@ -31,7 +31,7 @@ TL:DR
 
     b. using a npm-shrinkwrap.json
 
-    c. after initial `npm install`. first add the following to package.json.
+    c. after initial `npm install`. first add the following to package.json. [this is the easiest]
     
     ```
     {
