@@ -73,3 +73,12 @@ TL:DR
 if you get this `error: src refspec test-branch does not match any`,
 
 run `git push --set-upstream origin test-branch`.
+
+## AssertionError [ERR_ASSERTION]: Task function must be specified
+
+Ensure the version for `gulp` in package.json is ^3.9.1
+
+```
+   "gulp": "^3.9.1",
+```
+https://stackoverflow.com/questions/51098749/everytime-i-run-gulp-anything-i-get-a-assertion-error-task-function-must-be
