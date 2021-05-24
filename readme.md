@@ -29,7 +29,7 @@ TL:DR
 
     a. downgrade node using nvm
 
-    b. using a npm-shrinkwrap.json
+    b. [using a npm-shrinkwrap.json](https://stackoverflow.com/questions/55921442/how-to-fix-referenceerror-primordials-is-not-defined-in-node-js/60921145#60921145)
 
     c. after initial `npm install`. first add the following to package.json. [this is the easiest]
     
