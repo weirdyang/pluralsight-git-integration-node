@@ -48,7 +48,7 @@ TL:DR
       npm install -g npx`
     ```
 
-3. For options 2a. You should see this messag:
+3. For options 2b. You should see this message:
     ```
     npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@0. I'll try to do my best with it!
     ```
