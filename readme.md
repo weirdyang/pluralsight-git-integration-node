@@ -25,7 +25,7 @@ Follow the instructions [here](https://stackoverflow.com/questions/55921442/how-
 
 TL:DR
 1. Gulp 3.* doesn't work on Node 12.* or above. You have to downgrade Node, or upgrade Gulp.
-2. You have 2 options:
+2. You have 3 options:
 
     a. downgrade node using nvm
 
