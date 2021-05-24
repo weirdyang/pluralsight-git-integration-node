@@ -42,7 +42,11 @@ TL:DR
     }
     ```
     then under scripts, add `"preinstall": "npx npm-force-resolutions"` to package.json.
-    Run `npm install` again. This is preferred, and will ensure your app works on heroku. more info [here](https://stackoverflow.com/a/58394828/9491881). 
+    
+    Run `npm install` again. 
+    
+    This is preferred, and will ensure your app works on heroku, more info [here](https://stackoverflow.com/a/58394828/9491881). 
+    
     **Remember to add the following to the top of your .travis.yml**.
     ```
     before_install:
